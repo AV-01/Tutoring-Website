@@ -45,7 +45,7 @@
     </section>
 
 
-    <section id="experience" class="py-20 lg:py-32 flex flex-col gap-24">
+    <section id="quals" class="py-20 lg:py-32 flex flex-col gap-24">
         <div class="flex flex-col gap-2 text-center">
             <h6 class="text-lg sm:text-xl md:text-2xl">My previous math education.
             </h6>
@@ -99,21 +99,75 @@
             </div>
             {/each}
         </div>
-        <section>The <span class="text-violet-400">Complete</span> Package</section>
-        <div class="flex flex-col overflow-x-scroll gap-10 max-w-[800px] mx-auto w-full">
+        <section>
+            <h5 class={" text-2xl sm:text-3xl font-semibold text-center poppins py-4"}>
+                The <span class="text-violet-400">Complete</span> Package
+            </h5>        
+            <div
+            class="flex flex-col overflow-x-scroll gap-10 max-w-[800px] mx-auto w-full"
+            >
             <table class="bg-white text-slate-700 rounded text-center">
-                <thead class="border-b border-solid border-slate-200">
+                <thead class={"border-b border-solid border-slate-200  "}>
                     <tr class="">
-                        <th/>
-
+                        <th />
                         <th class="whitespace-nowrap p-2 px-4">Candidate #1</th>
                         <th class="whitespace-nowrap p-2 px-4">Candidate #2</th>
                         <th class="whitespace-nowrap p-2 px-4">Candidate #3</th>
-                        <th class="whitespace-nowrap bg-violet-700 text-white p-4 px-8">Me</th>
+                        <th
+                            class="bg-violet-700 text-white whitespace-nowrap p-4 px-8"
+                            >Me</th
+                        >
                     </tr>
                 </thead>
+                <tbody>
+                    <tr class="border-b border-solid border-slate-200">
+                        <td
+                            class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
+                            >Dedication</td
+                        >
+                        <td><i class="fa-solid fa-xmark text-slate-500" /></td>
+                        <td><i class="fa-solid fa-check text-slate-500" /></td>
+                        <td><i class="fa-solid fa-xmark text-slate-500" /></td>
+                        <td><i class="fa-solid fa-check text-green-500" /></td>
+                    </tr>
+                    <tr class="border-b border-solid border-slate-200">
+                        <td
+                            class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
+                            >Tutoring Experience</td
+                        >
+                        <td><i class="fa-solid fa-xmark text-slate-500" /></td>
+                        <td><i class="fa-solid fa-check text-slate-500" /></td>
+                        <td><i class="fa-solid fa-check text-slate-500" /></td>
+                        <td><i class="fa-solid fa-check text-green-500" /></td>
+                    </tr>
+                    <tr>
+                        <td
+                            class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
+                            >College Education</td
+                        >
+                        <td><i class="fa-solid fa-check text-slate-500" /></td>
+                        <td><i class="fa-solid fa-check text-slate-500" /></td>
+                        <td><i class="fa-solid fa-xmark text-slate-500" /></td>
+                        <td><i class="fa-solid fa-check text-green-500" /></td>
+                    </tr>
+                    <tr class="border-t border-solid border-slate-200">
+                        <td
+                            class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
+                            >Affordable</td
+                        >
+                        <td><i class="fa-solid fa-check text-slate-500" /></td>
+                        <td><i class="fa-solid fa-xmark text-slate-500" /></td>
+                        <td><i class="fa-solid fa-check text-slate-500" /></td>
+                        <td><i class="fa-solid fa-check text-green-500" /></td>
+                    </tr>
+                </tbody>
             </table>
         </div>
+        <div class="mt-5 text-center mx-auto -mt-12 italic sm:hidden opacity-50">
+            <p>Scroll to see more &rarr;</p>
+        </div>
+        <p class="mx-auto text-center mt-5">So why not invest?</p>
+
     </section>
 </main>
     
